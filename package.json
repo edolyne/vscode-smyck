@@ -1,0 +1,21 @@
+{
+	"name": "SMYCK Theme",
+	"description": "Port of the SMYCK textmate theme file",
+	"version": "0.0.1",
+	"publisher": "Edolyne Long",
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Smyck",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Smyck.tmTheme"
+			}
+		]
+	}
+}
